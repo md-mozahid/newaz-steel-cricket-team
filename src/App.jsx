@@ -1,22 +1,20 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Players from "./components/Players";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Players from './components/Players'
+import Home from './pages/Home'
 
 function App() {
   return (
     <>
-      <div className="text-white p-10 bg-gradient-to-r from-sky-500  to-emerald-500 ">
-        <BrowserRouter>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="player-list" element={<Players />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="player-list" element={<Players />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
