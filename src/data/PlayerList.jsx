@@ -53,7 +53,7 @@ export const PlayerList = [
     id: 9,
     name: "Muzahid",
     role: "Batsman",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Muzahid,
   },
   {
     id: 10,
@@ -66,12 +66,6 @@ export const PlayerList = [
     name: "Jahidul",
     role: "Batsman",
     thumbnail: images.Jahidul,
-  },
-  {
-    id: 12,
-    name: "Mussakdek",
-    role: "Coach",
-    thumbnail: images.DefaultImg,
   },
   {
     id: 13,
@@ -95,18 +89,6 @@ export const PlayerList = [
     id: 16,
     name: "Imran",
     role: "All Rounder",
-    thumbnail: images.DefaultImg,
-  },
-  {
-    id: 17,
-    name: "Rayhan",
-    role: "Support Staff",
-    thumbnail: images.Rayhan,
-  },
-  {
-    id: 18,
-    name: "Wazed",
-    role: "Support Staff",
     thumbnail: images.DefaultImg,
   },
 ];

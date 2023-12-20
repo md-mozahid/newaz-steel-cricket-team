@@ -14,7 +14,7 @@ const Navbar = () => {
               <Link to="player-list">Player List</Link>
             </li>
             <li className="md:text-xl">
-              <Link to="xl">Support Staff</Link>
+              <Link to="staff-list">Support Staff</Link>
             </li>
           </ul>
         </div>
