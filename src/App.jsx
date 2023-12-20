@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="text-white bg-[url('/src/assets/img/cricket-stadium.webp')] bg-no-repeat bg-cover h-screen w-full p-10">
+      <div className="text-white p-10 bg-gradient-to-r from-sky-500  to-emerald-500 ">
         <BrowserRouter>
           <Navbar />
           <Routes>

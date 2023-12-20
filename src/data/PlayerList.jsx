@@ -83,7 +83,7 @@ export const PlayerList = [
     id: 14,
     name: "Nasim",
     role: "Batsman",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Nasim,
   },
   {
     id: 15,
