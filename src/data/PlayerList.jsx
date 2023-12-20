@@ -1,0 +1,98 @@
+export const PlayerList = [
+  {
+    id: 1,
+    name: "Murad (c)",
+    role: "All Rounder",
+    thumbnail: "",
+  },
+  {
+    id: 2,
+    name: "Atik (vc)",
+    role: "All Rounder",
+    thumbnail: "",
+  },
+  {
+    id: 3,
+    name: "Ringku",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 4,
+    name: "Mahmud",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 5,
+    name: "Asad",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 6,
+    name: "Nazmul",
+    role: "All Rounder",
+    thumbnail: "",
+  },
+  {
+    id: 7,
+    name: "Khaled",
+    role: "Batsman (WK)",
+    thumbnail: "",
+  },
+  {
+    id: 8,
+    name: "Faysal",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 9,
+    name: "Muzahid",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 10,
+    name: "Palash",
+    role: "Bowler",
+    thumbnail: "",
+  },
+  {
+    id: 11,
+    name: "Jahidul",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 12,
+    name: "Mussakdek",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 13,
+    name: "Shahed",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 14,
+    name: "Nasim",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 15,
+    name: "Ashik",
+    role: "Batsman",
+    thumbnail: "",
+  },
+  {
+    id: 16,
+    name: "Imran",
+    role: "All Rounder",
+    thumbnail: "",
+  },
+];
