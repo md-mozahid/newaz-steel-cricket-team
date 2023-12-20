@@ -1,5 +1,5 @@
-import { Dialog, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Dialog, Transition } from '@headlessui/react'
+import { Fragment } from 'react'
 
 const PlayerModal = ({ isOpen, setIsOpen, closeModal }) => {
   return (
@@ -13,8 +13,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal }) => {
             enterTo="opacity-100"
             leave="ease-in duration-200"
             leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
+            leaveTo="opacity-0">
             <div className="fixed inset-0 bg-black/25" />
           </Transition.Child>
 
@@ -27,28 +26,37 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal }) => {
                 enterTo="opacity-100 scale-100"
                 leave="ease-in duration-200"
                 leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
+                leaveTo="opacity-0 scale-95">
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
+                    className="text-lg font-medium leading-6 text-gray-900">
+                    Player Details
                   </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
-                    </p>
+                  <div className="mt-2 flex gap-5">
+                    <img src="" alt="" />
+                    <div className="">
+                      <h2>Player Name</h2>
+                      <span>Location</span>
+                    </div>
+                  </div>
+
+                  {/* personal info. */}
+                  <div className="">
+                    <div className="">
+                      <h3>Personal Info</h3>
+                      <div className="">
+                        <span>Born</span>
+                        <span>Jan 01, 1995 (28 years)</span>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="mt-4">
                     <button
                       type="button"
                       className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                      onClick={closeModal}
-                    >
+                      onClick={closeModal}>
                       Got it, thanks!
                     </button>
                   </div>
@@ -59,7 +67,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal }) => {
         </Dialog>
       </Transition>
     </>
-  );
-};
+  )
+}
 
-export default PlayerModal;
+export default PlayerModal

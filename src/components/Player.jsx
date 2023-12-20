@@ -15,14 +15,13 @@ const Player = ({ player }) => {
   const { name, role, thumbnail } = player;
   return (
     <>
-      <div>
+      <div className="border border-[#0c4a6e] rounded-lg p-3">
         <div
-          className="flex items-center justify-center flex-col cursor-pointer hover:scale-110"
-          onClick={openModal}
-        >
+          className="flex items-center justify-center flex-col cursor-pointer hover:scale-105"
+          onClick={openModal}>
           <img className="w-36 h-36 rounded-full" src={thumbnail} alt="image" />
-          <h3 className="uppercase text-lg">{name}</h3>
-          <h4 className="uppercase">{role}</h4>
+          <h3 className="uppercase text-lg mt-3">{name}</h3>
+          {/* <h4 className="uppercase">{role}</h4> */}
         </div>
       </div>
 
@@ -32,7 +31,7 @@ const Player = ({ player }) => {
         closeModal={closeModal}
       /> */}
     </>
-  );
+  )
 };
 
 export default Player;
