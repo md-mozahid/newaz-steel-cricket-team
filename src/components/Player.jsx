@@ -1,6 +1,5 @@
 import { useState } from "react";
-import DefaultLogo from "../assets/img/player.jpg";
-import PlayerModal from "./PlayerModal";
+// import PlayerModal from "./PlayerModal";
 
 const Player = ({player}) => {
   let [isOpen, setIsOpen] = useState(false);
@@ -13,7 +12,7 @@ const Player = ({player}) => {
     setIsOpen(true);
   }
 
-  const {name, role} = player
+  const {name, role, thumbnail} = player
   return (
     <>
       <div className="">
@@ -21,21 +20,17 @@ const Player = ({player}) => {
           className="flex items-center justify-center flex-col cursor-pointer"
           onClick={openModal}
         >
-          <img
-            className="w-36 h-36 rounded-full"
-            src={DefaultLogo}
-            alt="image"
-          />
+          <img className="w-36 h-36 rounded-full" src={thumbnail} alt="image" />
           <h3 className="uppercase text-lg">{name}</h3>
           <h4 className="uppercase">{role}</h4>
         </div>
       </div>
       {/* modal */}
-      <PlayerModal
+      {/* <PlayerModal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         closeModal={closeModal}
-      />
+      /> */}
     </>
   );
 };
