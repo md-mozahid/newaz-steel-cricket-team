@@ -13,7 +13,8 @@ const Player = ({ player }) => {
     setIsOpen(true);
   }
 
-  const { name, style, thumbnail } = player;
+  const { name, style, thumbnail} = player;
+  
   return (
     <>
       <div className="border border-[#0c4a6e] rounded-lg p-3 relative hover:bg-sky-700">

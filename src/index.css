@@ -6,4 +6,7 @@
   body {
     @apply bg-gradient-to-r from-sky-500  to-emerald-500 text-slate-50 p-10;
   }
+  .active {
+    @apply text-rose-500;
+  }
 }

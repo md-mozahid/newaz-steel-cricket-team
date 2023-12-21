@@ -12,7 +12,15 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
     height,
     battingStyle,
     bowlingStyle,
+    match,
+    innings,
+    hs,
+    runs,
+    thirties,
+    wickets,
+    threeWickets,
   } = player;
+
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -108,24 +116,24 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                           </caption>
                           <thead>
                             <tr className="text-rose-500">
-                              <th className="px-5"></th>
                               <th className="px-5">M</th>
-                              <th className="px-5">Inn</th>
+                              <th className="px-5">Inn.</th>
                               <th className="px-5">HS</th>
                               <th className="px-5">Runs</th>
-                              <th className="px-5">Wkts</th>
                               <th className="px-5">30+</th>
+                              <th className="px-5">Wkts</th>
+                              <th className="px-5">3W</th>
                             </tr>
                           </thead>
                           <tbody className="text-sky-500">
                             <tr>
-                              <td className="">ODI</td>
-                              <td className="">9</td>
-                              <td className="">5</td>
-                              <td className="">71</td>
-                              <td className="">213</td>
-                              <td className="">21</td>
-                              <td className="">3</td>
+                              <td className="">{match}</td>
+                              <td className="">{innings}</td>
+                              <td className="">{hs}</td>
+                              <td className="">{runs}</td>
+                              <td className="">{thirties}</td>
+                              <td className="">{wickets}</td>
+                              <td className="">{threeWickets}</td>
                             </tr>
                           </tbody>
                         </table>

@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import { FaAlignJustify, FaCircleUser, FaXmark } from 'react-icons/fa6'
-import { Link } from 'react-router-dom'
-import { images } from '../constant'
+import { useState } from "react";
+import { FaAlignJustify, FaCircleUser, FaXmark } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import { images } from "../constant";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <div className="container mx-auto ">
@@ -46,6 +46,13 @@ const Navbar = () => {
           </Link>
           <div className="hidden md:block">
             <ul className="flex items-center space-x-5 uppercase">
+              {/* {["home", "player list", "Support Staff", "Gallery"].map(
+                (item, index) => (
+                  <li key={index} className="md:text-xl hover:text-rose-500">
+                    <Link to={`#${item.link}`}>{item}</Link>
+                  </li>
+                )
+              )} */}
               <li className="md:text-xl hover:text-rose-500">
                 <Link to="/">Home</Link>
               </li>
@@ -67,6 +74,6 @@ const Navbar = () => {
       </div>
     </>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -1,6 +1,6 @@
 import { images } from "../constant";
 
-export const PlayerList = [
+export const PlayersData = [
   {
     id: 1,
     name: "Murad (c)",
@@ -13,6 +13,14 @@ export const PlayerList = [
     height: "172cm",
     battingStyle: "Right Handed Bat",
     bowlingStyle: "Right-arm fast-medium",
+
+    match: 9,
+    innings: 5,
+    hs: 71,
+    runs: 211,
+    thirties: 3,
+    wickets: 21,
+    threeWickets: 3,
   },
   {
     id: 2,
