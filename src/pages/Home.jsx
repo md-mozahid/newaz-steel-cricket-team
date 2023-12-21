@@ -13,13 +13,13 @@ const Home = () => {
               Newaz Steel Cricket Team
             </h1>
             <motion.div
-              className="bg-slate-700 p-5 md:w-96 md:h-42 rounded-xl text-center mt-32 cursor-pointer"
+              className="bg-slate-700 p-5 md:w-96 md:h-42 rounded-xl text-center md:mt-32 mt-20 cursor-pointer"
               drag
               dragConstraints={{
                 top: -50,
                 left: -50,
-                right: 100,
-                bottom: 100,
+                right: 50,
+                bottom: 50,
               }}
             >
               <h3 className="md:text-2xl text-xl text-rose-500 uppercase">
@@ -37,8 +37,8 @@ const Home = () => {
               dragConstraints={{
                 top: -50,
                 left: -50,
-                right: 100,
-                bottom: 100,
+                right: 50,
+                bottom: 50,
               }}
             >
               <h3 className="md:text-2xl text-xl text-indigo-500 uppercase">
