@@ -20,7 +20,7 @@ const Navbar = () => {
                   onClick={() => setToggle(false)}
                   className="text-2xl text-rose-500"
                 />
-                <ul className="h-full w-full flex flex-col items-start justify-start mt-12 space-y-4 uppercase">
+                <ul className="h-full w-full flex flex-col items-center justify-start mt-12 space-y-4 uppercase">
                   <li className="md:text-xl hover:text-rose-500">
                     <Link to="/">Home</Link>
                   </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <img
               src={images.Logo}
               alt=""
-              className="md:text-xl w-12 rounded-full hidden md:block cursor-pointer"
+              className="md:text-xl w-12 rounded-full  md:block cursor-pointer"
             />
           </Link>
           <div className="hidden md:block">
