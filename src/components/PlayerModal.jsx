@@ -54,8 +54,12 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                       className="w-20 h-20 md:w-36 md:h-36 rounded-full"
                     />
                     <div className="">
-                      <h2 className="md:text-3xl text-xl">{fullName}</h2>
-                      <h2 className="md:text-3xl text-xl">{birthPlace}</h2>
+                      <h2 className="md:text-3xl text-xl font-semibold">
+                        {fullName}
+                      </h2>
+                      <h2 className="md:text-3xl text-xl font-semibold">
+                        {birthPlace}
+                      </h2>
                     </div>
                   </div>
 
@@ -66,7 +70,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                         <caption className="caption-top text-xl md:text-3xl mb-5 text-left mt-3">
                           Personal Info
                         </caption>
-                        <tbody 
+                        <tbody
                         // className="flex items-center justify-center flex-col"
                         >
                           <tr className="">
@@ -95,13 +99,44 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                           </tr>
                         </tbody>
                       </table>
+
+                      {/* career */}
+                      <div className="mb-5">
+                        <table>
+                          <caption className="caption-top text-xl md:text-3xl mb-5 text-left mt-3">
+                            Career Summary
+                          </caption>
+                          <thead>
+                            <tr className="text-rose-500">
+                              <th className="px-5"></th>
+                              <th className="px-5">M</th>
+                              <th className="px-5">Inn</th>
+                              <th className="px-5">HS</th>
+                              <th className="px-5">Runs</th>
+                              <th className="px-5">Wkts</th>
+                              <th className="px-5">30+</th>
+                            </tr>
+                          </thead>
+                          <tbody className="text-sky-500">
+                            <tr>
+                              <td className="">ODI</td>
+                              <td className="">9</td>
+                              <td className="">5</td>
+                              <td className="">71</td>
+                              <td className="">213</td>
+                              <td className="">21</td>
+                              <td className="">3</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
 
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md px-4 py-2 text-sm font-medium outline-none"
                       onClick={closeModal}
                     >
                       Cancel
