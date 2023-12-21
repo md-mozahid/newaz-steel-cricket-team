@@ -1,8 +1,10 @@
+import CountDownTimer from "../countDownTimer/countDownTimer";
+
 const Home = () => {
   return (
     <>
       <div className="container md:p-0 mx-auto">
-        <div 
+        <div
         // className="bg-[url('/src/assets/img/cricket-stadium-vector.jpg')] bg-no-repeat bg-cover h-screen"
         >
           <div className="pt-5 flex items-center justify-center flex-col  ">
@@ -19,11 +21,13 @@ const Home = () => {
                 Venue: Technical Cricket Ground
               </h3>
             </div>
+
+            {/* <CountDownTimer /> */}
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Home
+export default Home;

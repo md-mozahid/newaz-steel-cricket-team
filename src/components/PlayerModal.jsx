@@ -75,7 +75,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                   <div className="">
                     <div className="">
                       <table>
-                        <caption className="caption-top text-xl md:text-3xl mb-5 text-left mt-3">
+                        <caption className="caption-top text-xl md:text-2xl mb-4 text-left mt-3 text-rose-500">
                           Personal Info
                         </caption>
                         <tbody
@@ -111,11 +111,11 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                       {/* career */}
                       <div className="mb-5">
                         <table>
-                          <caption className="caption-top text-xl md:text-3xl mb-5 text-left mt-3">
+                          <caption className="caption-top text-xl md:text-2xl mb-4 text-left mt-3 text-rose-500">
                             Career Summary
                           </caption>
                           <thead>
-                            <tr className="text-rose-500">
+                            <tr className="">
                               <th className="px-5">M</th>
                               <th className="px-5">Inn.</th>
                               <th className="px-5">HS</th>
@@ -144,7 +144,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md px-4 py-2 text-sm font-medium outline-none"
+                      className="bg-rose-500 rounded-full hover:bg-rose-800 px-4 py-2 text-sm md:text-base font-medium outline-none"
                       onClick={closeModal}
                     >
                       Cancel
