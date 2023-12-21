@@ -16,10 +16,10 @@ export const PlayersData = [
 
     match: 9,
     innings: 5,
-    hs: 71,
-    runs: 211,
+    hs: 43,
+    runs: 162,
     thirties: 3,
-    wickets: 21,
+    wickets: 17,
     threeWickets: 3,
   },
   {

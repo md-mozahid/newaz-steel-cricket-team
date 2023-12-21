@@ -75,8 +75,8 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                   <div className="">
                     <div className="">
                       <table>
-                        <caption className="caption-top text-xl md:text-2xl mb-4 text-left mt-3 text-rose-500">
-                          Personal Info
+                        <caption className="caption-top text-xl md:text-2xl my-3 text-left text-rose-500">
+                          Personal Info.
                         </caption>
                         <tbody
                         // className="flex items-center justify-center flex-col"
@@ -111,7 +111,7 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                       {/* career */}
                       <div className="mb-5">
                         <table>
-                          <caption className="caption-top text-xl md:text-2xl mb-4 text-left mt-3 text-rose-500">
+                          <caption className="caption-top text-xl md:text-2xl my-3 text-left text-rose-500">
                             Career Summary
                           </caption>
                           <thead>
