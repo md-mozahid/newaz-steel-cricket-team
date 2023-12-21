@@ -4,9 +4,15 @@ export const PlayerList = [
   {
     id: 1,
     name: "Murad (c)",
+    fullName: "Md. Modasser Newaz",
     role: "All Rounder",
     thumbnail: images.Murad,
     style: images.Bat2,
+    birthPlace: "Naogaon",
+    dob: "Jan 01, 1990",
+    height: "172cm",
+    battingStyle: "Right Handed Bat",
+    bowlingStyle: "Right-arm fast-medium",
   },
   {
     id: 2,

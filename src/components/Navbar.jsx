@@ -41,7 +41,7 @@ const Navbar = () => {
             <img
               src={images.Logo}
               alt=""
-              className="md:text-xl w-12 rounded-full  md:block cursor-pointer"
+              className="md:text-xl w-12 rounded-xl  md:block cursor-pointer"
             />
           </Link>
           <div className="hidden md:block">

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-// import PlayerModal from "./PlayerModal";
+import PlayerModal from "./PlayerModal";
 
 const Player = ({ player }) => {
   let [isOpen, setIsOpen] = useState(false);
@@ -33,11 +33,12 @@ const Player = ({ player }) => {
         </div>
       </div>
 
-      {/* <PlayerModal
+      <PlayerModal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         closeModal={closeModal}
-      /> */}
+        player={player}
+      />
     </>
   );
 };
