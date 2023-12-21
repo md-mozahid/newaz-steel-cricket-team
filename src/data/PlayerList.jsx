@@ -6,6 +6,7 @@ export const PlayerList = [
     name: "Murad (c)",
     role: "All Rounder",
     thumbnail: images.Murad,
+    style: images.Bat2,
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ export const PlayerList = [
     name: "Khaled",
     role: "Batsman (WK)",
     thumbnail: images.DefaultImg,
+    style: images.Gloves,
   },
   {
     id: 8,
@@ -90,5 +92,6 @@ export const PlayerList = [
     name: "Imran",
     role: "All Rounder",
     thumbnail: images.DefaultImg,
+    style: images.Ball,
   },
 ];

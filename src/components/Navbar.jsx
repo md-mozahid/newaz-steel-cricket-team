@@ -30,6 +30,9 @@ const Navbar = () => {
                   <li className="md:text-xl hover:text-rose-500">
                     <Link to="staff-list">Support Staff</Link>
                   </li>
+                  <li className="md:text-xl hover:text-rose-500">
+                    <Link to="gallery">Gallery</Link>
+                  </li>
                 </ul>
               </div>
             )}
@@ -52,6 +55,9 @@ const Navbar = () => {
               <li className="md:text-xl hover:text-rose-500">
                 <Link to="staff-list">Support Staff</Link>
               </li>
+              <li className="md:text-xl hover:text-rose-500">
+                <Link to="gallery">Gallery</Link>
+              </li>
             </ul>
           </div>
           <h2 className="text-3xl md:text-4xl cursor-pointer uppercase">
@@ -60,7 +66,7 @@ const Navbar = () => {
         </nav>
       </div>
     </>
-  )
+  );
 }
 
 export default Navbar
