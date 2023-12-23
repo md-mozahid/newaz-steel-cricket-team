@@ -116,13 +116,13 @@ const PlayerModal = ({ isOpen, setIsOpen, closeModal, player }) => {
                           </caption>
                           <thead>
                             <tr className="">
-                              <th className="px-5">M</th>
-                              <th className="px-5">Inn.</th>
-                              <th className="px-5">HS</th>
-                              <th className="px-5">Runs</th>
-                              <th className="px-5">30+</th>
-                              <th className="px-5">Wkts</th>
-                              <th className="px-5">3W</th>
+                              <th className="px-2.5 md:px-5">M</th>
+                              <th className="px-2.5 md:px-5">Inn.</th>
+                              <th className="px-2.5 md:px-5">Runs</th>
+                              <th className="px-2.5 md:px-5">HS</th>
+                              <th className="px-2.5 md:px-5">30+</th>
+                              <th className="px-2.5 md:px-5">Wkts</th>
+                              <th className="px-2.5 md:px-5">3W</th>
                             </tr>
                           </thead>
                           <tbody className="text-sky-500">
