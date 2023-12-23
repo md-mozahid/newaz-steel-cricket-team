@@ -23,7 +23,7 @@ const Home = () => {
               }}
             >
               <h3 className="md:text-2xl text-xl text-rose-500 uppercase">
-                Tomorrow Match
+                Close Match
               </h3>
               <h3 className="md:text-xl my-2">Dec 22, 2023 (Friday)</h3>
               <h3 className="md:text-xl">Match Start 7:30 am</h3>
