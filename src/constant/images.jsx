@@ -14,6 +14,7 @@ import Rayhan from "../assets/img/rayhan.jpg";
 import Ringku from "../assets/img/ringku.jpg";
 import Khaled from "../assets/img/khaled.jpg";
 import Imran from "../assets/img/imran.jpg";
+import Mahmud from "../assets/img/mahmud.jpg";
 
 import Bat from "../assets/img/cricket-bat.svg";
 import Bat2 from "../assets/img/cricket-bat-2.png";
@@ -36,6 +37,7 @@ export default {
   Muzahid,
   Khaled,
   Imran,
+  Mahmud,
 
   Bat,
   Bat2,

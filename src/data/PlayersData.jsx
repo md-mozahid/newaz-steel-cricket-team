@@ -38,7 +38,7 @@ export const PlayersData = [
     id: 4,
     name: "Mahmud",
     role: "Batsman",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Mahmud,
   },
   {
     id: 5,
