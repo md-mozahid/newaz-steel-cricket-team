@@ -56,7 +56,7 @@ export const PlayersData = [
     id: 7,
     name: "Khaled",
     role: "Batsman (WK)",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Khaled,
     style: images.Gloves,
   },
   {
@@ -105,7 +105,7 @@ export const PlayersData = [
     id: 16,
     name: "Imran",
     role: "All Rounder",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Imran,
     style: images.Ball,
   },
 ];
