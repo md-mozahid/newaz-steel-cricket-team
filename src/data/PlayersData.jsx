@@ -87,7 +87,7 @@ export const PlayersData = [
     id: 13,
     name: "Shahed",
     role: "Batsman",
-    thumbnail: images.DefaultImg,
+    thumbnail: images.Shahed,
   },
   {
     id: 14,
